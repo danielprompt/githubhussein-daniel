@@ -1,3 +1,21 @@
+:root
+{
+    --primary-color: #BE6908;
+    --secondary-color: #085DBE;
+}
+
 html {
-    background-color: #be6908; /* Change this to your desired color */
+    background-color: var(--primary-color); /* Change this to your desired color */
+}
+
+
+/* Header Style rule */
+header
+{
+    
+}
+
+nav
+{
+    background-color: var(--secondary-color);
 }
