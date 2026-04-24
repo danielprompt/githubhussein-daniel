@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TeamHussein&Daniel</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"> <!--Links the html to the css-->
+    <script src="https://unpkg.com/lucide@latest"></script> <!--Links lucide icons to our html, accessing the online pacakage-->
 </head>
 <body>
     <header>
+
         <nav>
             <ul>
                 <li>Home</li>
@@ -15,25 +17,57 @@
             </ul>
         </nav>
 
+        <h1>
+            <i data-lucide="handshake"></i>
+            Hussein - Daniel's Website.  <!--We can come up with a better name for our website later-->
+        </h1>
 
-
-        <!--This is your section-->
-        Name: Hussein <br/>
-        Age: 20 <br/>
-        Major: Computer Networking <br/>
-        Hobby: Bodybuilding <br/>
-        Favorite Food: Sushi <br/>
-
-
-
-
-
-
-
-
-
-        <!--This is Daniel's section-->
     </header>
+    
+
+    <main>
+
+        <!--This is Hussein's section-->
+        <section>
+            <p>
+                Name: Hussein <br/>
+                Age: 20 <br/>
+                Major: Computer Networking <br/>
+                Hobby: Bodybuilding <br/>
+                Favorite Food: Sushi 
+            </p>
+        </section>
+        
+        
+        <!--This is Daniel's section-->
+        <section>
+            <h2>Daniel 
+                <i data-lucide="cloud-hail"></i> <!--Allows me to use the cloud hail icon-->
+                <span>Daiki</span> <!--Keeps everything on the same line-->
+            </h2>
+            <p>Name: Daniel <br/>
+            Age: 21 <br/>
+            Major: Computer Science <br/>
+            Hobby: Gaming/Teaching <br/>
+            Favorite Food: Jollof Rice
+            </p>
+        </section>
+
+    </main>
+        
+
+
+
+    <!--Java Script-->
+
+    <!--Allows us to use custom icons from Lucide-->
+    <script>
+        lucide.createIcons();
+    </script>
+
+   
+    
+    
     
 </body>
 </html>
